@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Khush Jain | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+text-align:center;
+padding:80px 20px;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header h3{
+color:#58a6ff;
+font-weight:400;
+margin-bottom:20px;
+}
+
+.btns a{
+display:inline-block;
+margin:10px;
+padding:12px 24px;
+background:#238636;
+color:white;
+text-decoration:none;
+border-radius:8px;
+transition:.3s;
+}
+
+.btns a:hover{
+background:#2ea043;
+}
+
+section{
+padding:60px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:40px;
+color:#58a6ff;
+}
+
+.about{
+text-align:center;
+max-width:850px;
+margin:auto;
+font-size:18px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#161b22;
+padding:20px;
+text-align:center;
+border-radius:10px;
+transition:.3s;
+}
+
+.skill:hover{
+transform:translateY(-5px);
+background:#1f2937;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:#161b22;
+padding:25px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#58a6ff;
+}
+
+.stats{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.stats img{
+max-width:100%;
+border-radius:10px;
+}
+
+.certificates{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.cert{
+background:#161b22;
+padding:18px;
+border-radius:8px;
+}
+
+.goals ul{
+max-width:600px;
+margin:auto;
+list-style:none;
+}
+
+.goals li{
+padding:15px;
+margin:12px 0;
+background:#161b22;
+border-left:5px solid #58a6ff;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#888;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>Hi 👋 I'm Khush Jain</h1>
+
+<h3>Computer Science Engineering Student | Full Stack Developer | AI Enthusiast | Cloud Learner</h3>
+
+<div class="btns">
+
+<a href="https://github.com/Khushjain2901" target="_blank">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/khush-jain-33506b360/" target="_blank">
+LinkedIn
+</a>
+
+</div>
+
+</header>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<p>
+🎓 B.Tech CSE Student at ABES Engineering College with a CGPA of <strong>8.59</strong>.
+</p>
+
+<br>
+
+<p>
+I'm passionate about Full Stack Web Development, Artificial Intelligence, Cloud Computing, and building real-world software that solves practical problems.
+</p>
+
+<br>
+
+<p>
+🏆 Top 20 Finalist in HCL Gen AI GUVI Hackathon
+</p>
+
+<br>
+
+<p>
+📧 Email: khushjain.2901@gmail.com
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">Tech Stack</h2>
+
+<div class="skills">
+
+<div class="skill">C</div>
+<div class="skill">C++</div>
+<div class="skill">Java</div>
+<div class="skill">Python</div>
+<div class="skill">JavaScript</div>
+<div class="skill">SQL</div>
+<div class="skill">React</div>
+<div class="skill">Node.js</div>
+<div class="skill">FastAPI</div>
+<div class="skill">MongoDB</div>
+<div class="skill">AWS</div>
+<div class="skill">Git & GitHub</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>🏛️ Jan-Awaz</h3>
+
+<p>
+Grievance Redressal Platform built using React, Tailwind CSS, Vite and Node.js that allows users to submit complaints while officials efficiently manage them.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🤖 AI Resume Analyser</h3>
+
+<p>
+An AI-powered ATS Resume Analyzer using Python, Streamlit, OpenAI, Anthropic, Plotly and Pandas that provides resume scores and intelligent suggestions.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🩺 SARTHI</h3>
+
+<p>
+Telemedicine Platform using Flutter, FastAPI, MongoDB, TensorFlow and AWS featuring AI Symptom Analysis, Medicine Availability and Multilingual Support.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">GitHub Stats</h2>
+
+<div class="stats">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Khushjain2901&show_icons=true&theme=tokyonight">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Khushjain2901&theme=tokyonight">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushjain2901&layout=compact&theme=tokyonight">
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="certificates">
+
+<div class="cert">AWS Cloud Foundations</div>
+<div class="cert">ReactJS</div>
+<div class="cert">Python</div>
+<div class="cert">Java</div>
+<div class="cert">SQL</div>
+<div class="cert">MongoDB Basics</div>
+<div class="cert">JavaScript (Udemy)</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container goals">
+
+<h2 class="section-title">2026 Goals</h2>
+
+<ul>
+
+<li>✅ Become a Full Stack Developer</li>
+
+<li>✅ Master Backend Development</li>
+
+<li>✅ Learn System Design</li>
+
+<li>✅ Contribute to Open Source</li>
+
+<li>✅ Crack a Software Engineering Internship</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+
+⭐ Thanks for visiting my portfolio.
+
+<br><br>
+
+Made with ❤️ by Khush Jain
+
+</footer>
+
+</body>
+</html>
